@@ -1,0 +1,25 @@
+Dream Job-1: Very Easy
+
+Provides Material:
+IOCs.txs with the following:
+  1. 7bb93be636b332d0a142ff11aedb5bf0ff56deabba3aa02520c85bd99258406f
+  2. adce894e3ce69c9822da57196707c7a15acee11319ccc963b84d83c23c3ea802
+  3. 0160375e19e606d06f672be6e43f70fa70093d2a30031affd2929a5c446d07c1
+
+**Tasks**
+1. Who conducted Operation Dream Job?
+   Answer: Lazarus Group
+   A quick google search about Operation Dream Job will bring you to the MITRE Campaign write-up. You will notice at the bottom it will referance Associated Campaigns and Groups. `G0032`, Lazarus Group will be noted as the group respoonsible.
+
+2. When was this operation first observed?
+    Answer: September 2019
+    This will be located in the top-right corner of the campaign write-up.
+
+3. There are 2 campaigns associated with Operation Dream Job. One is Operation North Star, what is the other?
+    Answer: Operation Interception
+    This will be located under "Associated Campaign Descriptions"
+
+4. During Operation Dream Job, there were the two system binaries used for proxy execution. One was Regsvr32, what was the other?
+    Answer: Rundll32
+    This will be found in the "Techniques Used" section of the report. T1218.011 System Binary Proxy Execution: Rundll32 
+    
