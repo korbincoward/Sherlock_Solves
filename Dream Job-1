@@ -22,4 +22,43 @@ IOCs.txs with the following:
 4. During Operation Dream Job, there were the two system binaries used for proxy execution. One was Regsvr32, what was the other?
     Answer: Rundll32
     This will be found in the "Techniques Used" section of the report. T1218.011 System Binary Proxy Execution: Rundll32 
-    
+    Adversaries will exploit the rundll.32 to execute malicous code due to a lack of monitoring of this process. 
+
+5. What lateral movement technique did the adversary use?
+    Answer: Internal Spearphishing
+    T1534, Internal Spearphishing allowed Lazarus to lateral move through the compromised network.
+
+6. What is the technique ID for the previous answer?
+    Answer: T1534
+
+7. What Remote Access Trojan did the Lazarus Group use in Operation Dream Job?
+    Answer: DRATzarus
+    T1587.001 Develop Capabilities: Malware, for Operation Dream Job, Lazarus created custom tools. DRATzarus is a remote access tool that was created to target defense and aerospace organizations since 2020. It shares a level of simalarity with Bankshot, which was used by Lazarus in 2017 to 
+    target the Turkish financial sector. 
+
+8. What technique did the malware use for execution?
+    Answer: Native API
+    T1106, Native API was implement within DRATzarus to check to see if the malware was running. This is an advanced form of sandbox evasion, ensuring a higher likelihood the malware makes it into the production environtment.
+
+9. What technique did the malware use to avoid detection in a sandbox?
+    Answer: Time Based Evasion
+
+10. To answer the remaining questions, utilize VirusTotal and refer to the IOCs.txt file. What is the name associated with the first hash provided in the IOC file?
+    Hash: 7bb93be636b332d0a142ff11aedb5bf0ff56deabba3aa02520c85bd99258406f
+    Answer: IEXPLORE.exe
+
+11. When was the file associated with the second hash in the IOC first created?
+    Hash: adce894e3ce69c9822da57196707c7a15acee11319ccc963b84d83c23c3ea802
+    Answer: 2020-05-12 19:26:17
+
+12. What is the name of the parent execution file associated with the second hash in the IOC?
+    Answer: BAE_HPC_SE.iso
+
+13. Examine the third hash provided. What is the file name likely used in the campaign that aligns with the adversary's known tactics?
+    Answer: Salary_Lockheed_Martin_job_opportunities_confidential.doc
+
+14. Which URL was contacted on 2022-08-03 by the file associated with the third hash in the IOC file?
+    Answer: https://markettrendingcenter.com/lk_job_oppor.docx
+
+
+
