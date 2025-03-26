@@ -65,23 +65,23 @@ Incident Response Report - Operation Dream Job (C0022)
 
 Suspected Attribution: Lazarus Group (G0032)
 
-Targets: Lazarus has actively targeted organizations in 50+ countries across the glode, first being observed in 2009. The Group has conducted campaigns against defense, government, and financial sectors.
-Their most common campaigns revolve around the financial sector including decentralized platform services and disrespect towards their leader. This campaing does highlight that they have access and utlize job boards
-to identify specific targets that work in their desired target secotr.
+Targets: Lazarus has actively targeted organizations in 50+ countries across the globe, first being observed in 2009. The Group has conducted campaigns against defense, government, and financial sectors.
+Their most common campaigns revolve around the financial sector including decentralized platform services and disrespect towards their leader. This campaign does highlight that they have access and utlize job boards
+to identify specific targets that work in their desired target sector.
 
 Overview: Lazarus Group was actively targeting individuals working within the defense, aerospace, and public sectors within the United States, Israel, Australia, Russia, and India. 
 
 Associated Software:
   1. (S0694) DRATzarus: Used to deploy additional software after initial compromise.
   2. (S0174) Responder: Used to conduct structured authentication of MMSSQL servers.
-  3. (S0687) Torisma: Used to conduct continous monitoring for new drives and RDP connections on compromised systems.
+  3. (S0687) Torisma: Used to conduct continuous monitoring for new drives and RDP connections on compromised systems.
 
-Indicators of Compromise: Malware hashes identifiec.
+Indicators of Compromise: Malware hashes identified.
   1. 7bb93be636b332d0a142ff11aedb5bf0ff56deabba3aa02520c85bd99258406f
   2. adce894e3ce69c9822da57196707c7a15acee11319ccc963b84d83c23c3ea802
   3. 0160375e19e606d06f672be6e43f70fa70093d2a30031affd2929a5c446d07c1
 
 Analysis:
-Operation Dream Job was a sophisticated campaign that employed advanced techniques to conduct cyberespionage and attempt to discredit government entities that do not align with the regime. As tensions between western civilizationa and North Korea continue to increase
+Operation Dream Job was a sophisticated campaign that employed advanced techniques to conduct cyberespionage and attempt to discredit government entities that do not align with the regime. As tensions between western civilization and North Korea continue to increase
 the most likely course of action will be an increase of offensive cyber operations against western governments and contractors to discredit them and create a lack of trust. We will also see an increase of attacks on the financial sector as a means to fund
-the regime and their weapons procurment plans. Their least likely course of action will to decrease offensive cyber operations and only target government agencies. 
+the regime and their weapons procurement plans. Their least likely course of action will to decrease offensive cyber operations and only target government agencies. 
