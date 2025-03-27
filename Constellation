@@ -1,0 +1,60 @@
+Constellation: Medium
+
+
+
+Task 1
+When did the suspect first start Direct Message (DM) conversations with the external entity (A possible threat actor group which targets organizations by paying employees to leak sensitive data)? (UTC)
+  Answer: 2023-09-16 16:03:37
+Utilizing a tool called unfurl, I was able to input the discord url and identify when the Direct Messages began.
+
+Task 2
+What was the name of the file sent to the suspected insider threat?
+  Answer: NDA_Instructions.pdf
+Unfurl was able to identify that the file sent was a pdf, this pdf was provided by the inestigation team already.
+
+Task 3
+When was the file sent to the suspected insider threat? (UTC)
+  Answer:2023-09-27 05:27:02
+Again, using unfurl we were able to identify when this file was sent.
+
+Task 4
+The suspect utilised Google to search something after receiving the file. What was the search query?
+  Answer: how to zip a folder using tar in linux
+As part of our recieved artifacts we recieved the query url, this allowed us to determine what the usewr was searching for.
+
+Task 5
+The suspect originally typed something else in search tab, but found a Google search result suggestion which they clicked on. Can you confirm which words were written in search bar by the suspect originally?
+  Answer: How to archive a folder using tar i
+Using unfurl again, we were able to identify the original query.
+
+Task 6
+When was this Google search made? (UTC)
+  Answser: 2023-09-27 05:31:45
+Unfurl provided us with the time the search was made.
+
+Task 7
+What is the name of the Hacker group responsible for bribing the insider threat?
+  Answer: AntiCorp Gr04p
+After opening the pdf file we were able to identify the Hacker group.
+
+Task 8
+What is the name of the person suspected of being an Insider Threat?
+  Answer: Karen Riley
+The pdf file was addressed to Karen Riley.
+
+Task 9
+What is the anomalous stated creation date of the file sent to the insider threat? (UTC)
+  Answer: 2054-01-17 22:45:22
+
+Task 10
+The Forela threat intel team are working on uncovering this incident. Any OpSec mistakes made by the attackers are crucial for Forela's security team. Try to help the TI team and confirm the real name of the agent/handler from Anticorp.
+  Answer: Abdullah Al Sajjad
+A quick google search for "CyberJunkie@AntiCorp.Gr04p" lead us to a LinkedIn post requesting help from people for nefarious activity.
+
+Task 11
+Which City does the threat actor belong to?
+  Anaswer: Bahawalpur
+That LinkedIn profile was able to provide us with a city location of the threat actor.
+
+Incident Report - Constellation
+
