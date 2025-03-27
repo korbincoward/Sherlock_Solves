@@ -58,3 +58,6 @@ That LinkedIn profile was able to provide us with a city location of the threat 
 
 Incident Report - Constellation
 
+BLUF: On 2023-09-16 16:03:37UTC, Karen Riley was contacted via the messaging application Discord through Direct Messages by a threat actor from Bahawalpur, Punjab, Pakistan by the name of Abdullah Al Sajjad.
+This threat actor provided Karen Riley with a pdf file with instructions on how to zip and send files to their S3 bucket in exchange for $20,000 being sent to their paypal. We will continue to see threat actors
+attempt to compromise people within the company as the company continues to develop proprietary systems, it is important to implement insider threat training and behavioral analytics to monitor for these incidents.
